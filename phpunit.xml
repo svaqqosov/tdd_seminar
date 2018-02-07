@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit colors="true">
+    <filter>
+        <blacklist>
+            <directory suffix=".php">./vendor</directory>
+        </blacklist>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./phpUnit/src</directory>
+        </whitelist>
+    </filter>
+    <!-- <filter> -->
+    <!--     <whitelist addUncoveredFilesFromWhitelist="true" processUncoveredFilesFromWhitelist="true"> -->
+    <!--         <directory suffix=".php">./phpUnit/</directory> -->
+    <!--     </whitelist> -->
+    <!-- </filter> -->
+    <testsuites>
+        <testsuite name="Application Test Suite">
+            <directory>./phpUnit/Test/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

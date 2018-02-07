@@ -1,0 +1,17 @@
+{
+    "name": "svaqqosov/tdd",
+    "description": "TDD seminar project",
+    "type": "project",
+    "authors": [{
+        "name": "Sardor Vakkosov",
+        "email": "sardor.vaqqosov@gmail.com"
+    }],
+    "require": {
+        "phpunit/phpunit": "^6.5.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "phpUnit": ""
+        }
+    }
+}
